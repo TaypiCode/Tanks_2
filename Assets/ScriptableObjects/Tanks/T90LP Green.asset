@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbdeab0887e72745aa3501cf3b68130, type: 3}
+  m_Name: T90LP Green
+  m_EditorClassIdentifier: 
+  itemId: 7f3c7c73-df25-4fcd-9bcd-50d910b1dfb5
+  _tankPrefub: {fileID: 7466719474163377704, guid: b48ff36a7b35e0f438b152cdded12ec8,
+    type: 3}
+  _previousUnlock: {fileID: 11400000, guid: 3288b1bfb9b9c624080063ca68cda4c0, type: 2}
+  _tankName: T 90
+  _expForUnlock: 15000
+  _buyCost: 200000
+  _battleRating: 10
+  _tankImage: {fileID: 21300000, guid: 7b083708087654345b4ad8148b203a25, type: 3}
+  _availableAmmo: {fileID: 11400000, guid: 543ad53ce508ebb4f80ccb550d834e23, type: 2}
+  _maxBodyLevel: 1
+  _maxTowerLevel: 1
+  _maxCannonLevel: 1
+  _maxTruckLevel: 1
+  _bodyHPByLevel:
+  - 150
+  _towerRotationSpeedByLevel:
+  - 150
+  _cannonReloadTimeByLevel:
+  - 7
+  _cannonDamageByLevel:
+  - 15
+  _cannonCritChanceByLevel:
+  - 50
+  _truckMovementSpeedByLevel:
+  - 18
+  _truckRotationSpeedByLevel:
+  - 2
+  _bodyUpgradeCostByLevel: []
+  _towerUpgradeCostByLevel: []
+  _cannonUpgradeCostByLevel: []
+  _truckUpgradeCostByLevel: []

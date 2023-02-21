@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hangar.unity
+    guid: c41fa41408b07144f9177daa09e32eaf
+  - enabled: 1
+    path: Assets/Scenes/Battle-1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Battle-2.unity
+    guid: 64356c9eb4fd7ef4683967656710f009
+  - enabled: 1
+    path: Assets/Scenes/Battle-3.unity
+    guid: cf7636afa4881c049a91d9e4d28598fe
+  - enabled: 1
+    path: Assets/Scenes/Battle-4_Forest.unity
+    guid: 1f92f8a7048efa1498040bf1ec5a637f
+  m_configObjects: {}

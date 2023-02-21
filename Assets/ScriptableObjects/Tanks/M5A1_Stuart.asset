@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbdeab0887e72745aa3501cf3b68130, type: 3}
+  m_Name: M5A1_Stuart
+  m_EditorClassIdentifier: 
+  itemId: 48ea0043-f4b4-4e51-9f88-33a941ae43ef
+  _tankPrefub: {fileID: 3647105155360283513, guid: 52f57298f152a0042ad3305fac1455d5,
+    type: 3}
+  _previousUnlock: {fileID: 0}
+  _tankName: M5A1 Stuart
+  _expForUnlock: 1500
+  _buyCost: 3000
+  _battleRating: 3
+  _tankImage: {fileID: 21300000, guid: a3a92ab12bff7a94da7198594af65db6, type: 3}
+  _availableAmmo: {fileID: 11400000, guid: 543ad53ce508ebb4f80ccb550d834e23, type: 2}
+  _maxBodyLevel: 2
+  _maxTowerLevel: 1
+  _maxCannonLevel: 2
+  _maxTruckLevel: 2
+  _bodyHPByLevel:
+  - 20
+  - 22
+  _towerRotationSpeedByLevel:
+  - 60
+  _cannonReloadTimeByLevel:
+  - 3.2
+  - 2.8
+  _cannonDamageByLevel:
+  - 2
+  - 2
+  _cannonCritChanceByLevel:
+  - 10
+  - 15
+  _truckMovementSpeedByLevel:
+  - 20
+  - 23
+  _truckRotationSpeedByLevel:
+  - 1.8
+  - 2
+  _bodyUpgradeCostByLevel:
+  - 750
+  _towerUpgradeCostByLevel: []
+  _cannonUpgradeCostByLevel:
+  - 1200
+  _truckUpgradeCostByLevel:
+  - 500
